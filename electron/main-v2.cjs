@@ -213,6 +213,7 @@ function createWindow() {
     const settings = loadSettings();
     const isHeadless = settings.headlessMode || process.argv.includes('--headless');
     const startMinimized = settings.startMinimized || process.argv.includes('--minimized');
+    const isMac = process.platform === 'darwin';
 
     mainWindow = new BrowserWindow({
         width: 1200,
@@ -226,16 +227,22 @@ function createWindow() {
             preload: path.join(__dirname, 'preload.cjs')
         },
         autoHideMenuBar: true,
-        titleBarStyle: 'hidden',
-        titleBarOverlay: {
-            color: '#0f0f1a',
-            symbolColor: '#ffffff',
-            height: 38
-        },
+        titleBarStyle: isMac ? 'hiddenInset' : 'hidden',
+        ...(isMac ? {} : {
+            titleBarOverlay: {
+                color: '#0f0f1a',
+                symbolColor: '#ffffff',
+                height: 38
+            }
+        }),
         backgroundColor: '#0f0f23',
         icon: path.join(__dirname, '../assets/proxima-icon.png')
     });
     mainWindow.setMaxListeners(20); // Prevent MaxListenersExceeded warning
+
+    if (isMac) {
+        mainWindow.setWindowButtonVisibility(true);
+    }
 
     // Initialize browser manager
     browserManager = new BrowserManager(mainWindow);
