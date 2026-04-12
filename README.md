@@ -10,8 +10,8 @@
 [![MCP Tools](https://img.shields.io/badge/MCP%20Tools-45%2B-orange.svg)]()
 [![Providers](https://img.shields.io/badge/AI%20Providers-4-purple.svg)]()
 
-Use ChatGPT, Claude, Gemini & Perplexity through **ONE single endpoint**.
-No API keys needed — use your existing accounts.
+Proxima acts like a connector browser to turn all your interactive AI browser sessions into an interactive endpoint for AI MCP's.
+ChatGPT, Claude, Gemini, Perplexity, CoPilot, Deepseek, Z.ai, Meta.ai are all accessible as MCP. All you need to do is login to each of them in the Proxima browser shell. No API keys needed.
 
 [Getting Started](#getting-started) · [API Usage](#api-usage) · [SDKs](#sdks) · [MCP Tools](#mcp-tools) · [Configuration](#configuration)
 
@@ -25,7 +25,7 @@ https://github.com/user-attachments/assets/6eb76618-2c1d-4dad-b753-aaaee9e93310
 
 ![Proxima Settings](assets/proxima-settings.png)
 
-![Proxima Provider View](assets/proxima-provider.png)
+![Proxima Provider View](assets/proxima-screenshot.jpg)
 
 </div>
 
@@ -60,7 +60,7 @@ POST /v1/chat/completions
 
 ---
 
-## What's New in v3.0.0
+## What's New in v3.5.0
 
 - 🆕 **27 new MCP tools** — content, analysis, file analysis, window control, session management
 - 🆕 **REST API** — OpenAI-compatible endpoint at `localhost:3210`
@@ -79,7 +79,7 @@ POST /v1/chat/completions
 
 ### Requirements
 
-- **Windows 10/11**
+- **Windows 10/11 or Mac**
 - **Node.js 18+** → [Download Node.js](https://nodejs.org/)
 
 ### Installation
@@ -539,8 +539,9 @@ See [LICENSE](LICENSE) for details.
 
 <div align="center">
 
-**Proxima v3.0.0** — One API, All AI Models ⚡
+**Proxima v3.5.0** — One API, All AI Models ⚡
 
 Made by [Zen4-bit](https://github.com/Zen4-bit)
+Extended models and features [MindFlowGo](https://github.com/mindflowgo/)
 
 </div>

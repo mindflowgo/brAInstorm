@@ -1,9 +1,9 @@
 {
     "name": "proxima",
-    "version": "3.0.0",
+    "version": "3.5.0",
     "description": "Proxima - Local MCP Server (requires localhost network access for AI coding tools)",
     "license": "SEE LICENSE IN LICENSE",
-    "author": "Zen4-bit",
+    "author": "Zen4-bit, mindflowgo",
     "keywords": [
         "mcp",
         "ai",
