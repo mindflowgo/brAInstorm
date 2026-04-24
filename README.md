@@ -25,7 +25,7 @@ ChatGPT, Claude, Gemini, Google AI, Perplexity, DeepSeek, Grok, Z.AI, Copilot, M
 
 ## Overview
 
-brAInstorm is a local AI gateway for coding tools and MCP clients.
+brAInstorm is a local AI gateway for coding tools and MCP clients. It allows skill scripts to enhance the AIs.
 
 **One API. One URL. One function field. Any enabled model.**
 
@@ -506,7 +506,7 @@ Copy the exact JSON from the brAInstorm Settings panel when possible. A typical 
 - `list_skills`
 - `run_skill`
 
-**Code and Analysis**
+**Code and Analysis (hardcoded skills) **
 
 - `generate_code`
 - `review_code`
@@ -633,7 +633,7 @@ See [LICENSE](LICENSE) for details.
 
 **brAInstorm v4.0.0** — One API, All AI Models
 
-Made by [Zen4-bit](https://github.com/Zen4-bit)  
-Extended models and features by [MindFlowGo](https://github.com/mindflowgo/)
+Build on the ieas of [Zen4-bit](https://github.com/Zen4-bit)  
+Rebuilt with CODEX, and vision & new features by [MindFlowGo](https://github.com/mindflowgo/) and others (see CONTRIBUTORS.md)
 
 </div>
