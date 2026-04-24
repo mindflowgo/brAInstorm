@@ -1,4 +1,3 @@
-<div align="center">
 
 <img src="assets/brainstorm-icon.png" alt="brAInstorm logo" width="64" height="64">
 
@@ -30,7 +29,6 @@ to work on your projects - SAVE tokens as these don't need API keys and are free
 
 [Getting Started](#getting-started) · [API Usage](#api-usage) · [Skills](#skills) · [SDKs](#sdks) · [MCP](#mcp) · [Troubleshooting](#troubleshooting)
 
-</div>
 
 ![brAInstorm Settings](assets/brainstorm-settings.jpg)
 
@@ -619,4 +617,3 @@ work on this together!
 Current models and features by [MindFlowGo](https://github.com/mindflowgo/)
 
 Contributors will be tracked in [CONTRIBUTORS.md](CONTRIBUTORS.md).
-
