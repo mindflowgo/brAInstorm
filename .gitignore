@@ -21,6 +21,7 @@ Thumbs.db
 npm-debug.log*
 pnpm*
 .playwright-mcp/*
+.playwright-mcp
 
 # Environment files
 .env
